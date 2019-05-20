@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./getting.component.css']
 })
 export class GettingStarted {
-  serviceURL = "https://reports.syncfusion.com/demos/services/api/SamplesReportViewer";
-  reportPath = "mail-merge";
+  title = 'reportviewerapp';
+  public serviceUrl: string;  
+  public reportPath: string;
+
+    constructor() {
+        this.serviceUrl = "https://reports.syncfusion.com/demos/services/api/SamplesReportViewer";
+        this.reportPath = 'sales-order-detail';
+    }
 }

@@ -1,0 +1,22 @@
+.ej-container{
+    position: relative;
+}
+
+.ej-container .ej-toc-container{
+    position: absolute;
+    width: 250px;
+    left: 0
+}
+
+.ej-container .ej-sample-toc{
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    border: 1px solid gainsboro;
+    text-align: center
+}
+.ej-container .ej-sample-container{
+    position: absolute;
+    left: 250px;
+    width: calc(100% - 250px)
+}

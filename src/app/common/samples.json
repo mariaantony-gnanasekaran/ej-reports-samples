@@ -1,14 +1,46 @@
 {
-    "samples": [
-        {
-            "routerPath": "getting",
-            "className": "GettingStarted",
-            "sampleName": "Getting started"
-        },
-        {
-            "routerPath": "overview",
-            "className": "Overview",
-            "sampleName": "OverView"
-        }
-    ]
+    "ReportViewer": {
+        "samples": [
+            {
+                "routerPath": "getting",
+                "className": "GettingStarted",
+                "sampleName": "Getting started",
+                "metaData": {
+                    "title": "sample",
+                    "description": "sssssssssssss"
+                }
+            },
+            {
+                "routerPath": "overview",
+                "className": "Overview",
+                "sampleName": "OverView",
+                "metaData": {
+                    "title": "sample",
+                    "description": "sssssssssssss"
+                }
+            }
+        ]
+    },
+    "ReportDesigner": {
+        "samples": [
+            {
+                "routerPath": "getting",
+                "className": "GettingStarted",
+                "sampleName": "Getting started des",
+                "metaData": {
+                    "title": "sample",
+                    "description": "sssssssssssss"
+                }
+            },
+            {
+                "routerPath": "overview",
+                "className": "Overview",
+                "sampleName": "OverView des",
+                "metaData": {
+                    "title": "sample",
+                    "description": "sssssssssssss"
+                }
+            }
+        ]
+    }
 }

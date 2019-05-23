@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { AppRouterModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { SideBarComponent } from './sidebar/sidebar.component';
+
+import 'bootstrap';
 
 // data-visualization
 import '@syncfusion/reporting-javascript/Scripts/reports/data-visualization/ej.bulletgraph.min';
@@ -24,6 +28,8 @@ window[codemirror] = CodeMirror;
 
 @NgModule({
   declarations: [
+    HeaderComponent,
+    SideBarComponent,
     AppComponent
   ],
   imports: [

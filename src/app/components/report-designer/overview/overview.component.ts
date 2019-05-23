@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'ej-sample',
   templateUrl: './overview.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./overview.component.css']
 })
 export class ReportDesignerOverView {
   serviceURL = "https://reports.syncfusion.com/demos/services/api/SamplesReportViewer";

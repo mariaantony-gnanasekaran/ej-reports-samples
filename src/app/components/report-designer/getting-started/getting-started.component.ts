@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'ej-sample',
   templateUrl: './getting-started.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./getting-started.component.css']
 })
 export class ReportDesignerGettingStarted {
   public serviceUrl: string;  

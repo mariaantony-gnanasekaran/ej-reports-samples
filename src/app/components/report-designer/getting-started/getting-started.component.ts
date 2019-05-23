@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './getting.component.html',
   styleUrls: ['./getting.component.css']
 })
-export class GettingStarted {
+export class ReportDesignerGettingStarted {
   public serviceUrl: string;  
   public reportPath: string;
 

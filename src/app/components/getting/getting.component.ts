@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./getting.component.css']
 })
 export class GettingStarted {
-  title = 'reportviewerapp';
   public serviceUrl: string;  
   public reportPath: string;
 

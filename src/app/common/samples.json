@@ -1,6 +1,5 @@
 {
     "ReportViewer": {
-        "path": "report-viewer",
         "samples": [
             {
                 "routerPath": "getting-started",
@@ -32,7 +31,6 @@
         ]
     },
     "ReportDesigner": {
-        "path": "report-designer",
         "samples": [
             {
                 "routerPath": "getting-started",

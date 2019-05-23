@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'ej-sample',
-  templateUrl: './overview.component.html',
-  styleUrls: ['./overview.component.css']
+  templateUrl: './reports.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class ReportDesignerReports {
   serviceURL = "https://reports.syncfusion.com/demos/services/api/SamplesReportViewer";

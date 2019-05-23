@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'ej-sample',
-  templateUrl: './getting.component.html',
-  styleUrls: ['./getting.component.css']
+  templateUrl: './getting-started.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class ReportViewerGettingStarted {
   public serviceUrl: string;  

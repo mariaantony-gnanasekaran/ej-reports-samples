@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./reports.component.css']
 })
 export class ReportDesignerReportsComponent {
-  serviceURL = "https://reports.syncfusion.com/demos/services/api/SamplesReportViewer";
-  reportPath = "mail-merge";
+  serviceURL = 'https://reports.syncfusion.com/demos/services/api/SamplesReportViewer';
+  reportPath = 'mail-merge';
 }

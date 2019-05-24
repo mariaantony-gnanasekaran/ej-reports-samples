@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./getting-started.component.css']
 })
 export class ReportViewerGettingStartedComponent {
-  public serviceUrl: string;  
+  public serviceUrl: string;
   public reportPath: string;
 
-    constructor() {
-        this.serviceUrl = "https://reports.syncfusion.com/demos/services/api/SamplesReportViewer";
-        this.reportPath = 'sales-order-detail';
-    }
+  constructor() {
+    this.serviceUrl = 'https://reports.syncfusion.com/demos/services/api/SamplesReportViewer';
+    this.reportPath = 'sales-order-detail';
+  }
 }

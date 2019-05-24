@@ -3,7 +3,7 @@
         "samples": [
             {
                 "routerPath": "getting-started",
-                "className": "ReportViewerGettingStarted",
+                "className": "ReportViewerGettingStartedComponent",
                 "sampleName": "Getting Started",
                 "metaData": {
                     "title": "Getting Started",
@@ -12,7 +12,7 @@
             },
             {
                 "routerPath": "overview",
-                "className": "ReportViewerOverView",
+                "className": "ReportViewerOverViewComponent",
                 "sampleName": "OverView",
                 "metaData": {
                     "title": "OverView",
@@ -21,7 +21,7 @@
             },
             {
                 "routerPath": "reports",
-                "className": "ReportViewerReports",
+                "className": "ReportViewerReportsComponent",
                 "sampleName": "Reports",
                 "metaData": {
                     "title": "Reports",
@@ -34,7 +34,7 @@
         "samples": [
             {
                 "routerPath": "getting-started",
-                "className": "ReportDesignerGettingStarted",
+                "className": "ReportDesignerGettingStartedComponent",
                 "sampleName": "Getting Started",
                 "metaData": {
                     "title": "Getting Started",
@@ -43,7 +43,7 @@
             },
             {
                 "routerPath": "overview",
-                "className": "ReportDesignerOverView",
+                "className": "ReportDesignerOverViewComponent",
                 "sampleName": "OverView",
                 "metaData": {
                     "title": "OverView",
@@ -52,7 +52,7 @@
             },
             {
                 "routerPath": "reports",
-                "className": "ReportDesignerReports",
+                "className": "ReportDesignerReportsComponent",
                 "sampleName": "Reports",
                 "metaData": {
                     "title": "Reports",

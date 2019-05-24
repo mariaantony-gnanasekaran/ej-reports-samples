@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './reports.component.html',
   styleUrls: ['./reports.component.css']
 })
-export class ReportViewerReports {
+export class ReportViewerReportsComponent {
   serviceURL = "https://reports.syncfusion.com/demos/services/api/SamplesReportViewer";
   reportPath = "mail-merge";
 }

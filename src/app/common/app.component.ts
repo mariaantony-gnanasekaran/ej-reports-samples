@@ -1,4 +1,4 @@
-import { Component, HostListener, ViewChild } from '@angular/core';
+import { Component, HostListener, ViewChild, OnInit } from '@angular/core';
 import { Router, NavigationStart } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { Title, Meta } from '@angular/platform-browser';
@@ -10,7 +10,7 @@ import * as data from './samples.json';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   tocSlideLeft = false;
   tocMobileSlideLeft = false;
   @ViewChild('sidebar') sidebar: SideBarComponent;
@@ -31,7 +31,7 @@ export class AppComponent {
         isReportViewer = true;
       } else {
         sampleData = data.ReportDesigner.samples.filter((sample) => reportDesigner + sample.routerPath === event.url)[0];
-        isReportViewer = false
+        isReportViewer = false;
       }
       this.sidebar.selectedPath = (isReportViewer ? reportViewer : reportDesigner) + sampleData.routerPath;
       this.updateMetaData(sampleData);

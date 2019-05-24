@@ -1,4 +1,4 @@
-import { Component, Output,EventEmitter } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'ej-header',
@@ -7,13 +7,13 @@ import { Component, Output,EventEmitter } from '@angular/core';
 })
 export class HeaderComponent {
 
-    // Declaring onHamBurgerClick Event to acheive sidebar toggling from the app component side.
-    @Output() hamBurgerClick: EventEmitter<{}> = new EventEmitter();
+  // Declaring onHamBurgerClick Event to acheive sidebar toggling from the app component side.
+  @Output() hamBurgerClick: EventEmitter<{}> = new EventEmitter();
 
-    // This will be fired on clicking hamburger icon.
-    public onClick(): void {
-      // This will fire an event in app component.
-      this.hamBurgerClick.emit();
-    }
+  // This will be fired on clicking hamburger icon.
+  public onClick(): void {
+    // This will fire an event in app component.
+    this.hamBurgerClick.emit();
+  }
 
 }

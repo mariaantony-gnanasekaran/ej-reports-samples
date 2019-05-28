@@ -30,3 +30,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
   
+  ej-reportdesigner, ej-reportviewer{
+    display: block;
+  }

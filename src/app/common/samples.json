@@ -6,26 +6,8 @@
                 "className": "ReportViewerGettingStartedComponent",
                 "sampleName": "Getting Started",
                 "metaData": {
-                    "title": "Getting Started",
-                    "description": "Getting Started description"
-                }
-            },
-            {
-                "routerPath": "overview",
-                "className": "ReportViewerOverViewComponent",
-                "sampleName": "OverView",
-                "metaData": {
-                    "title": "OverView",
-                    "description": "OverView description"
-                }
-            },
-            {
-                "routerPath": "reports",
-                "className": "ReportViewerReportsComponent",
-                "sampleName": "Reports",
-                "metaData": {
-                    "title": "Reports",
-                    "description": "Reports description"
+                    "title": "Report Viewer demo",
+                    "description": "Sales order detail report preview"
                 }
             }
         ]
@@ -37,26 +19,8 @@
                 "className": "ReportDesignerGettingStartedComponent",
                 "sampleName": "Getting Started",
                 "metaData": {
-                    "title": "Getting Started",
-                    "description": "Getting Started description"
-                }
-            },
-            {
-                "routerPath": "overview",
-                "className": "ReportDesignerOverViewComponent",
-                "sampleName": "OverView",
-                "metaData": {
-                    "title": "OverView",
-                    "description": "OverView description"
-                }
-            },
-            {
-                "routerPath": "reports",
-                "className": "ReportDesignerReportsComponent",
-                "sampleName": "Reports",
-                "metaData": {
-                    "title": "Reports",
-                    "description": "Reports description"
+                    "title": "Report Designer demo",
+                    "description": "Report designer description"
                 }
             }
         ]

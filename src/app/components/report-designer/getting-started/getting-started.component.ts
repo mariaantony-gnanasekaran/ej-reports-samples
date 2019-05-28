@@ -7,10 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ReportDesignerGettingStartedComponent {
   public serviceUrl: string;
-  public reportPath: string;
 
   constructor() {
-    this.serviceUrl = 'https://reports.syncfusion.com/demos/services/api/SamplesReportViewer';
-    this.reportPath = 'sales-order-detail';
+    this.serviceUrl = 'https://reports.syncfusion.com/demos/services/api/ReportingAPI';
   }
 }
